@@ -1,0 +1,60 @@
+{
+  "name": "arise-js",
+  "version": "1.0.0",
+  "description": "Plugin for javascript",
+  "main": "webpack.config.js",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode production -w",
+    "server": "php -S 127.0.0.1:3000"
+  },
+  "author": "<alikzoy@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWitcher1991/arise-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheWitcher1991/arise-js"
+  },
+  "homepage": "https://github.com/TheWitcher1991/arise-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-for-of": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.2.2",
+    "eslint-loader": "^3.0.0",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jquery": "^3.4.1",
+    "mocha": "^6.2.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.19.1",
+    "requirejs": "^2.3.6",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "eslintIgnore": [
+    "build/**",
+    "node_modules/**",
+    "coverage/**",
+    "packages/**"
+  ],
+  "devEngines": {
+    "node": ">= 13.x",
+    "npm": ">= 6.x",
+    "yarn": ">= 1.15.2"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.2"
+  }
+}
