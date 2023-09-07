@@ -1,6 +1,5 @@
 # ARISE-JS [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TheWitcher1991/arise-js/blob/master/LICENSE)
 
->## I warn you! Plugin in development. If you download it and use it, there may be errors in some functions or they will not work
 
 > This is a plugin for creating various (customizable) pop-ups that can be added to a website or web application
 
